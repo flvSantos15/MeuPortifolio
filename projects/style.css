@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+.container{
+  height: auto;
+}
+.containerHead{
+  background: #3131eb;
+  height: 130px;
+  font-family: 'Rajdhani', sans-serif;
+}
+.containerHead .menu{
+  width: 65%;
+  height: 100%;
+  margin: auto;
+}
+.containerHead ul{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.containerHead a{
+  margin: auto;
+  text-decoration: none;
+  color: #dcdcdc;
+}
+.containerHead li{
+  width: 120px;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 8px;
+}
+.containerHead li:hover{
+  opacity: 0.6;
+}
+
+.containerBody{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.containerBody .Photo img{
+  width: 300px;
+  height: 320px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.containerFooter{
+  display: flex;
+  height: auto;
+  background: #3131eb;
+}
+.containerFooter .social{
+  margin: auto;
+  width: 50%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerFooter .social a{
+  margin: auto;
+  text-decoration: none;
+  color: #dcdcdc;
+}
+.containerFooter .social a li{
+  list-style: none;
+  font-family: 'Rajdhani', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+}
