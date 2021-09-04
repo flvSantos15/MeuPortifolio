@@ -218,6 +218,10 @@ img{
   bottom: 0;
   width: 295px;
 }
+.home__img img{
+  width: 300px;
+  border-radius: 25rem;
+}
 
 /*BUTTONS*/
 .button{
@@ -320,6 +324,7 @@ img{
 .work__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-radius: .5rem;
+  height: 180px;
   overflow: hidden;
 }
 .work__img img{
@@ -370,8 +375,7 @@ img{
   flex-direction: row;
 }
 .footer__icon{
-  width: max-content;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #fff;
   margin: 0 var(--mb-2);
 }

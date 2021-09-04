@@ -306,13 +306,25 @@ img{
         width: 95%;
     }
     &__css{
-        width: 85%;
+        width: 90%;
     }
     &__js{
-        width: 65%;
+        width: 80%;
     }
     &__ux{
         width: 85%;
+    }
+    &__rjs{
+        width: 25%;
+    }
+    &__rjn{
+        width: 30%;
+    }
+    &__njs{
+        width: 20%;
+    }
+    &__msl{
+        width: 15%;
     }
     &__img{
         border-radius: .5rem;
@@ -375,6 +387,10 @@ img{
     }
     &__social{
         margin-bottom: var(--mb-4);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
     }
     &__icon{
         font-size: 1.5rem;
