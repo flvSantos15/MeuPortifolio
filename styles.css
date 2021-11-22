@@ -302,16 +302,37 @@ img{
   width: 80%;
 }
 .skills__rjs{
-  width: 25%;
+  width: 45%;
 }
 .skills__rjn{
-  width: 30%;
+  width: 50%;
+}
+.skills__sas{
+  width: 20%
 }
 .skills__njs{
   width: 20%;
 }
 .skills__msl{
   width: 15%;
+}
+.skills__git{
+  width: 60%;
+}
+.skills__gih{
+  width: 60%;
+}
+.skills__tai{
+  width: 20%;
+}
+.skills__pyt{
+  width: 40%;
+}
+.skills__bot{
+  width: 30%;
+}
+.skills__fig{
+  width: 20%;
 }
 .skills__img{
   border-radius: .5rem;
